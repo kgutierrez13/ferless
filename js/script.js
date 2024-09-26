@@ -1,6 +1,26 @@
 (function($) {
     "use strict";
 
+    $(document).ready(function() {
+        $('.popup-spotify').magnificPopup({
+            type: 'iframe',
+            iframe: {
+                patterns: {
+                    spotify: {
+                        index: 'open.spotify.com',
+                        src: 'https://open.spotify.com/embed/track/%id%?utm_source=generator'
+                    }
+                },
+                srcAction: 'iframe_src'
+            },
+            // Optional: You can customize the popup appearance
+            mainClass: 'mfp-fade',
+            removalDelay: 300,
+            preloader: false,
+            fixedContentPos: false
+        });
+    });
+
     // Windows load
 
     $(window).on("load", function() {

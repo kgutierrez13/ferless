@@ -570,7 +570,7 @@ input[type="text"],
     border: 2px solid transparent;
     border-color:rgba(255,255,255,.07);
     padding: 0.2875rem 0.55rem;
-    font-size: 0.9357rem;
+    font-size: .6875rem;
     display: inline-block;
     margin-right: .3rem;
 }
@@ -670,3 +670,31 @@ div[class*="col-"].gap-double-sm, .gap-double-sm {
 }
 
 /*End misc */
+
+.f-logo{
+    margin-bottom: 0px!important;
+}
+.btn-lyrics{
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    padding: .29rem .725rem .29rem .625rem;
+    font-size: .6875rem!important;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    border-radius: 0;
+    font-weight: 700;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
